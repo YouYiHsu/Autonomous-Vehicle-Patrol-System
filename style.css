@@ -1,0 +1,502 @@
+* {
+  box-sizing: border-box;
+  font-family: Microsoft JhengHei;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 500px;
+  max-width:100%;
+}
+
+.title{
+  text-align: center;
+  color: #0d0bb4;
+  font-size: 35px;
+}
+
+.fail{
+  text-align: center;
+  color: #790e6a;
+  font-size: 35px;
+}
+
+.upltitle{
+  text-align: center;
+  color: #5e0f0f;
+  font-size: 35px;
+}
+
+.successtitle{
+  text-align: center;
+  color: #324e2e;
+  font-size: 35px;
+}
+
+.choosetitle{
+  text-align: center;
+  color: #45088a;
+  font-size: 35px;
+}
+
+.datetitle{
+  text-align: center;
+  color: #088a6e;
+  font-size: 35px;
+}
+
+.date1title{
+  text-align: center;
+  color: rgb(119, 100, 17);
+  font-size: 25px;
+}
+.date1{
+  text-align: center;
+  color: rgb(80, 47, 141);
+  background-color: #e74444;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.date2{
+  text-align: center;
+  color: rgb(80, 47, 141);
+  background-color: #e74444;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.resulttitle{
+  text-align: center;
+  color: #195c56;
+  font-size: 40px;
+}
+
+.content{
+  text-align: left;
+  color: #000000;
+  font-size: 20px;
+}
+
+p{
+  color: red;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+}
+
+h2 {
+  text-align: center;
+  color: #25a6af;
+}
+h3 {
+  text-align: center;
+  color: #000000;
+  padding: 5px;
+}
+
+.copyright {
+  color: #000000;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 20px;
+  text-decoration:underline;
+}
+
+.copyright1 {
+  color: #000000;
+  text-align: right;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 20px;
+  text-decoration:underline;
+}
+
+.notfound {
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+}
+
+.adminalert{
+  color: red;
+  text-align: center;
+  font-size: 25px;
+  font-weight:bold;
+  background-color: yellow;
+}
+.choosedate{
+  color: #b69b25;
+  text-align: center;
+  font-size: 25px;
+}
+
+.known{
+  color: #3432b6;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgb(255, 217, 0);;
+}
+
+.unknown{
+  color: #3432b6;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgb(255, 217, 0);
+}
+
+.sensortitle{
+  color: #3432b6;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgb(255, 217, 0);
+}
+
+.sensor{
+  text-align: center;
+  font-size: 23px;
+}
+
+.logintext,
+.loginpassword {
+  width: 500px;
+  height: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  text-align: left;
+  max-width:100%;
+}
+
+.datetext{
+  width: 250px;
+  height: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  text-align: left;
+  max-width:100%;
+}
+
+label {
+  font-size:medium;
+  padding-right: 200px;
+  font-weight: bolder;
+  max-width:100%;
+}
+
+table{
+  border:0;
+  border-collapse: 0; 
+  padding: 0;
+}
+
+input {
+  margin-top: 10px;
+  max-width:100%;
+}
+
+input:focus {
+  outline: none;
+  /* 取消focus效果 */
+  max-width:100%;
+}
+
+#btn {
+  text-align: center;
+  max-width:100%;
+}
+
+#btn1 {
+  text-align: center;
+  max-width:100%;
+  align-items: center;
+}
+
+#btn2 {
+  text-align: center;
+  max-width:100%;
+}
+#btn3 {
+  text-align: center;
+  max-width:100%;
+}
+
+#btn4 {
+  text-align: center;
+  max-width:100%;
+}
+
+#btn5 {
+  text-align: center;
+  max-width:100%;
+}
+
+#btn6 {
+  text-align: center;
+  max-width:100%;
+}
+
+#btndate {
+  text-align: center;
+  max-width:100%;
+}
+
+#btnupload {
+  text-align: left;
+  max-width:100%;
+}
+
+#btn input {
+  width: 45%;
+  margin: 2%;
+  margin-top: 10px;
+  border: none;
+  height: auto;
+  padding: 5px;
+  font-size: 25px;
+  border-radius: 100px;
+  max-width:100%;
+}
+#btn1 input {
+  width: 50%;
+  margin: 2%;
+  margin-top: 10px;
+  border: none;
+  height: auto;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  max-width:100%;
+}
+
+#btn2 input {
+  width: 50%;
+  margin: 2%;
+  margin-top: 10px;
+  border: none;
+  height: auto;
+  padding: 5px;
+  font-size: 25px;
+  border-radius: 60px;
+  max-width:100%;
+}
+
+#btn3 input {
+  width: 50%;
+  margin: 2%;
+  margin-top: 10px;
+  border: none;
+  height: auto;
+  padding: 5px;
+  font-size: 28px;
+  border-radius: 60px;
+  max-width:100%;
+}
+
+#btn4 input {
+  width: 50%;
+  margin: 2%;
+  margin-top: 10px;
+  border: none;
+  height: auto;
+  padding: 5px;
+  font-size: 28px;
+  border-radius: 60px;
+  max-width:100%;
+}
+
+#btn5 input {
+  width: 50%;
+  margin: 2%;
+  margin-top: 10px;
+  border: none;
+  height: auto;
+  padding: 5px;
+  font-size: 28px;
+  border-radius: 60px;
+  max-width:100%;
+}
+
+#btn6 input {
+  width: 50%;
+  margin: 2%;
+  margin-top: 10px;
+  border: none;
+  height: auto;
+  padding: 5px;
+  font-size: 25px;
+  border-radius: 15px;
+  max-width:100%;
+}
+
+#btndate input {
+  width: 50%;
+  margin: 2%;
+  margin-top: 10px;
+  border: none;
+  height: auto;
+  padding: 5px;
+  font-size: 25px;
+  border-radius: 60px;
+  max-width:100%;
+}
+
+#btnupload input {
+  width: auto;
+  margin: 0%;
+  border: none;
+  height: auto;
+  padding: 5px;
+  font-size: 25px;
+  border-radius: 5px;
+  max-width:100%;
+}
+
+.logIn,
+.update,
+.update1,
+.back,
+.home,
+.history,
+.upload,
+.date,
+.choose,
+.sensorbtn {
+  cursor: pointer;
+}
+
+.logIn {
+  background-color: #ffce49;
+  color: #816516;
+  font-weight: bold;
+}
+
+.update {
+  background-color: #29bed8;
+  color: #134f6b;
+  font-weight: bold;
+}
+.update1 {
+  background-color: #ffffff;
+  color: #0400ff;
+  font-weight:bold;
+}
+
+.back {
+  background-color: #e459d1;
+  color: #81297a;
+  font-weight:bold;
+}
+
+.home {
+  background-color: #6166a8;
+  color: #241079;
+  font-weight:bold;
+}
+
+.upload {
+  background-color: #d6965b;
+  color: #5a4518;
+  font-weight:bold;
+}
+
+.history {
+  background-color: #a5a4a4;
+  color: #5c5959;
+  font-weight:bold;
+}
+
+.date {
+  background-color: #e28383;
+  color: #993636;
+  font-weight:bold;
+}
+
+.choose {
+  background-color: #5bc49b;
+  color: #035f3c;
+  font-weight:bold;
+}
+
+.sensorbtn {
+  background-color: #b1b6b6;
+  color: #000000;
+  font-weight:bold;
+}
+
+.logIn:hover {
+  background-color: #ffc31f;
+  color: #816516;
+}
+
+.update:hover {
+  background-color: #1299b1;
+  color: #134f6b;
+  font-weight: bold;
+}
+
+.update1:hover {
+  background-color: #7da386;
+  color: #ffee00;
+  font-weight:bold;
+}
+
+.back:hover {
+  background-color: #d428bd;
+  color: #81297a;
+  font-weight:bold;
+}
+
+.home:hover {
+  background-color: #464fc9;
+  color: #241079;
+  font-weight:bold;
+}
+
+.upload:hover {
+  background-color: #f17704;
+  color: #91680f;
+  font-weight:bold;
+}
+
+.history:hover {
+  background-color: #241f1f;
+  color: #7a7676;
+  font-weight:bold;
+}
+
+.date:hover{
+  background-color: #e92626;
+  color: #9c0909;
+  font-weight:bold;
+}
+
+.choose:hover {
+  background-color: #24a372;
+  color: #035f3c;
+  font-weight:bold;
+}
+
+.sensorbtn:hover {
+  background-color: #7e8686;
+  color: #000000;
+  font-weight:bold;
+}
+
+/* .true {
+  color: #06a81c;
+}
+
+.false {
+  color: red;
+} */
